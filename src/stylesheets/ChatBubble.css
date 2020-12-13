@@ -1,0 +1,95 @@
+.chat-bubble {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+    background-color: #E6E6FF;
+    margin: 30px 0;
+    width: 90%;
+} 
+
+.user-data {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.user-data .full-name {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+.user-data .username {
+    font-weight: 200;
+    font-size: 11px;
+}
+
+.user-data img {
+    border-radius: 50%;
+}
+
+.user-data p {
+    margin: 0;
+}
+
+.chat-data {
+    width: 80%;
+    margin-left: 20px;
+}
+
+.chat-data p {
+    text-align: left;
+    margin: 0;
+    font-size: 14px;
+}
+
+.chat-data h3 {
+    text-align: left;
+    margin-top: 27px;
+}
+
+.chat-data span {
+    text-align: right;
+    /* display: block; */
+    padding: 8px 20px;
+    
+}
+
+.chat-data .chat-id {
+    background-color: #efded5;
+    font-size: 11px;
+    float: right;
+    height: 10px;
+    border-radius: 0 10px 0 0;
+}
+
+.chat-data .chat-num {
+    display: inline-block;
+    position: relative;
+    padding: 4px;
+    border: 1px solid green;
+    border-radius: 50%;
+    width: 20px;
+    text-align: center;
+    color: white;
+    background-color: green;
+    left: 68%;
+    top: 12%;
+}
+
+/* .chat-data .chat-id, */
+.chat-data .chat-timestamp {
+    font-size: small;
+    float: right;
+    height: 10px;
+    border-radius: 0 10px 0 0;
+}
+
+.chat-data .chat-timestamp {
+    color: green;
+}
+
+@media screen and (max-width: 768px) {
+    .sml-chat-nav {
+        margin: 0 10px;
+    }
+}

@@ -1,0 +1,44 @@
+.chat-nav-div {
+    margin-left: 20px;
+    padding-top: 30px;
+    flex-basis: 40%;
+}
+
+.chat-bubble-div {
+    padding-top: 20px;
+    margin-top: 20px;
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 750px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    background-color: #FFF;
+    width: 90%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+@media screen and (max-width: 768px) {
+    .chat-bubble-div {
+        display: flex;
+        overflow-x: scroll;
+    }
+}

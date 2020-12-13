@@ -1,0 +1,309 @@
+.converse-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 27px;
+    flex-basis: 57%;
+    /* margin-left: 15px; */
+}
+
+.chat-btn-div {
+    display: flex;
+        align-self: flex-end;
+}
+
+.converse-div .start-chat-btn {
+    width: 100%;
+    padding: 10px;
+    border: 1px;
+    background-color: #fed136;
+    color: #FFF;
+}
+
+.body-container {
+    border: 1px solid #ccc;
+    margin-top: 26px;
+    border-radius: 10px;
+    max-height: 900px;
+    overflow-y: scroll;
+}
+
+.converse-header {
+    display: flex;
+    padding-top: 22px;
+    padding-bottom: 5px;
+    width: 100%;
+    align-items: baseline;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px 10px 0 0;
+    background-color: #E6E6FF;
+}
+
+/* .content-header::after {
+    content: "";
+    clear: both
+} */
+
+.converse-user-details {
+    padding-left: 22px;
+    padding-top: 3px;
+        
+}
+
+.converse-user-details img {
+    border-radius: 50%;
+    position: absolute;
+    top: 173px;
+    right: 578px;
+}
+
+.converse-user-details .user-fname {
+    font-weight: bold;
+    font-size: 11px;
+    margin: 0;
+}
+
+.converse-user-details .username {
+    font-weight: 200;
+    font-size: 11px;
+    margin: 0;
+}
+
+.converse-header .converse-heading {
+    margin: 0 25px;
+    text-align: center;
+}
+
+.converse-header .contact-info {
+    border: 1px solid #ccc;
+    background-color: #FFF;
+    position: absolute;
+    right: 220px;
+    width: 30%;
+}
+
+.converse-header .contact-heading {
+    background-color: #696969;
+    margin-top: 0;
+    color: #FFF;
+    padding: 10px 0;
+}
+
+.contact-info .contact-number,
+.contact-info .contact-email {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+}
+
+.contact-info .info-name {
+    color: #D3D3D3;
+    width: 50%;
+    padding: 13px;
+}
+
+.contact-info .info-tab {
+    width: 46%;
+    border: 1px solid #eee;
+    padding: 13px;
+    border-radius: 8px;
+    background-color: #efefef;
+}
+
+.contact-info .info-tab:hover {
+    box-shadow: 0px 5px 4px #ccc;
+}
+
+.converse-header .info-button {
+    padding: 10px;
+    background-color: #696969;
+    border: 1px solid #fed136;
+    border-radius: 6px;
+    color: #fff;
+    width: 18%;
+}
+
+.converse-info .info-button .fas.fa-info {
+    color: #fed136;
+    font-size: 16px;
+}
+
+.converse-header .elipse-menu {
+    padding-left: 15px;
+    font-size: 22px;
+}
+
+.chat-actions {
+    border: 1px solid #ccc;
+    width: 16%;
+    position: absolute;
+    right: 90px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #FFF;
+}
+
+.chat-actions .chat-action {
+    display: block;
+    padding: 11px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: #5a5a5a;
+    color: #FFF;
+    width: 75%;
+}
+
+.chat-id-div {
+    overflow: auto;
+    background-color: #FFF;
+}
+
+.converse-info .msg-chat-id {
+    text-align: center;
+    float: right;
+    padding: 5px;
+    font-size: small;
+    background-color: #efded5;
+    border-radius: 0 0 0 10px;
+    width: 24%;
+    clear: both;
+}
+
+.body-container .chats-div {
+    background-color: #fff;
+}
+
+.converse-div .msg-chat-id {
+    text-align: center;
+    float: right;
+    padding: 5px;
+    font-size: small;
+    background-color: #efded5;
+    border-radius: 0 0 0 10px;
+    width: 24%;
+    clear: both;
+}
+
+.converse-footer {
+    padding: 30px;
+    background-color: #FFF;
+}
+
+.converse-footer .send-message {
+    border: 1px solid #FED136;
+    border-radius: 10px;
+}
+
+.converse-footer .send-message .msg-input {
+    width: 100%;
+    padding: 35px 0;
+    border: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.converse-footer .send-message .msg-input::placeholder {
+    color: #bbb;
+    padding-left: 10px;
+    font-family: 'Rubik',
+    sans-serif;
+    font-size: 15px;
+}
+
+.send-message .msg-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+    background-color: #f5f5f5;
+    border-radius: 0 0 10px 10px;
+}
+
+.msg-controls .msg-media {
+    margin-right: 50%;
+}
+
+.msg-controls .media-icon {
+    font-size: 25px;
+    padding: 5px 17px;
+    color: #6d6d6d;
+}
+
+.msg-controls .msg-send .send-msg {
+    background-color: #FED136;
+    border-radius: 20px;
+    width: 26%;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .converse-header {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .converse-user-details img {
+        position: absolute;
+        top: 402px;
+        right: 278px;
+    }
+
+    .converse-header .info-button {
+        width: 40%;
+        margin-bottom: 15px;
+    }
+
+    .converse-header .elipse-menu {
+        padding-right: 10px;
+        margin-right: 10px;
+        margin-bottom: 16px;
+    }
+    .converse-header .contact-info {
+        right: 92px;
+        bottom: -148px;
+        width: 66%;
+    }
+
+    .converse-header .converse-heading {
+        display: none;
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    .contact-info .contact-number,
+    .contact-info .contact-email {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 8px 0px;
+    }
+
+    .contact-info .info-name, .contact-info .info-tab {
+        width: 70%;
+    }
+
+    .converse-header .contact-info {
+        right: 92px;
+        bottom: -122px;
+        width: 66%;
+    }
+
+    .chat-actions {
+        width: 50%;
+        right: 50px;
+        bottom: -8px;
+    }
+
+    .converse-div .msg-chat-id {
+        width: 40%;
+    }
+
+    .msg-controls .msg-media {
+        margin-right: 20px;
+    }
+
+    .msg-send .send-msg {
+        margin-right: 17px;
+    }
+}

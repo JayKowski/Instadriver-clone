@@ -1,0 +1,34 @@
+.left-side-bar {
+    background-color: #7A378B;
+    color: #FFF;
+    height: fit-content;
+    padding: 0 5px;
+    width: 35%;
+}
+
+.side-bar-items {
+    padding-left: 3px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .side-bar-items {
+        list-style-type: none;
+        padding: 5px 13px;
+    }
+
+    .left-side-bar {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        z-index: 10000;
+    }
+    
+    .side-bar-items {
+        display: none;
+    }
+
+    .sml-menu-icon {
+        padding: 10px;
+    }
+}
